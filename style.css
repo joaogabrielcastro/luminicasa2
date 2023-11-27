@@ -1,0 +1,154 @@
+
+
+
+.cards{
+    width: 400px;
+    height: 400px;
+    animation: slidein infinite;
+    animation-duration: 1s;
+    animation-direction: normal;
+}
+
+/*@keyframes slidein {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(100%);
+    }
+  }*/
+  #marca{
+    width: 150px;
+    height: 150px;
+  }
+  *{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+  }
+  .header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000 ;
+    position: fixed;
+    transition: ALL.35s ease;
+    background-color: antiquewhite;
+    padding: 17px 17px;
+
+  }
+.logo{
+  font-weight: 500;
+  font-size:  25px;
+  
+
+
+}  
+.cabeçalho-link{
+  display: flex;
+  font-size: 20px;
+  gap:30rem;
+
+}
+.cabeçalho-link a{
+  color: black;
+  transition: 0.3s;
+
+
+}
+.cabeçalho-link a:hover{
+  color: yellow
+}
+.Meio{
+  padding: 7rem 0 0 8.5rem;
+  line-height:  3rem;
+}
+.Meio h1{
+  font-size: 3rem;
+}
+section{
+  padding-top: 7rem;
+}
+section h1{
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+
+}
+.container-card-1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+  align-items: center;
+
+}
+.text-cta{
+  padding-left: 5rem;
+
+}
+.text-cta h6{
+font-size: 70px;
+font-weight: 500;
+letter-spacing: 6px;
+
+
+}
+.text-cta h4{
+  font-size: 3,3rem;
+  line-height: 1,2;
+}
+.conteiner-painel{
+   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+  align-items: center;
+
+}
+
+.Marcas img{
+  width: 180px;
+  height: auto;
+  background-color: blue;
+}
+.Marcas{
+  margin-top: 10rem;
+  align-items: center;
+  text-align: center;
+
+}
+.Contato{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  font-size: 20px;
+  background-color: black;
+
+}
+.logo h1{
+  text-align: center;
+  align-items: center;
+}
+.meio-contato{
+  color: azure;
+}
+@media screen and (max-width: 768px) {
+
+}
+
